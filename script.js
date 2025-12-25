@@ -86,7 +86,7 @@ function checkWin(currentWordState) {
 
 function checkLoss() {
     if (mistakes >= maxMistakes) {
-        document.getElementById('game-status').innerText = `💀 Ви програли! Слово було: ${selectedWord}`;
+        document.getElementById('game-status').innerText = `Ви програли! Слово було: ${selectedWord}`;
         document.getElementById('game-status').style.color = "#e74c3c";
         document.getElementById('word-display').innerText = selectedWord.split('').join(" ");
         disableAllButtons();
