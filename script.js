@@ -78,7 +78,7 @@ function drawHangman() {
 
 function checkWin(currentWordState) {
     if (currentWordState === selectedWord) {
-        document.getElementById('game-status').innerText = "🎉 Ви виграли!";
+        document.getElementById('game-status').innerText = "Ви виграли!";
         document.getElementById('game-status').style.color = "#2ecc71";
         disableAllButtons();
     }
